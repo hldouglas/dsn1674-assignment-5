@@ -53,6 +53,7 @@ nav li {
   display: inline-block;
   width: 33.33%;
   border: 1px solid #a93f35;
+  border-left: 0.5px solid #a93f35;
   padding: 0.5em;
 }
 
