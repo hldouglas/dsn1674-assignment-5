@@ -79,26 +79,36 @@ h2 {
   color: #fff;
   padding: 1em;
   margin: 0em;
+  clear: both;
 }
 
-.grains-left2 {
+.grain-left2, .cereals-right, .quinoa-right {
+  border: 1px solid #CFCFCF;
+}
+
+.grain-left2 {
   float: left;
-  width: 35%;
-  margin: 0.5em;
+  width: 39.5%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+
 }
 
 .cereals-right {
   float: right;
-  width: 35%;
+  width: 40%;
+  margin-top: 0.3em;
   margin-right: 0.5em;
-  margin-left: 0.5em;
+  margin-left: 0.3em;
   padding: 0em;
 
 }
 
 .quinoa-right {
   float: right;
-  width: 35%;
+  width: 40%;
   margin: 0.5em;
   clear: right;
   padding: 0em;
@@ -107,6 +117,11 @@ h2 {
 p {
   margin: 0.5em;
   font-size: 0.98rem;
+  line-height: 1.6em;
+}
+
+.p2 {
+  clear: left;
 }
 
 dt, dd {
