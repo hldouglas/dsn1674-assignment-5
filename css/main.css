@@ -124,6 +124,58 @@ p {
   clear: left;
 }
 
+.corn, .rice, .oats {
+  background-color: #dc8252;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.corn-centre {
+  width: 100%;
+  margin: 0em;
+  padding: 0em;
+  border: 0px;
+}
+
+.corn {
+  margin: 0px;
+  margin-top: -0.45em;
+  padding: 0em 0em 1em 0em;
+}
+
+.rice-left {
+  width: 50%;
+  float: left;
+  padding: 0em;
+  border: 0px;
+}
+
+.rice {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  padding: 0.1em 0em 1em 0em;
+}
+
+.oats-right {
+  width: 50%;
+  float: right;
+  border: 0px;
+}
+
+.oats {
+  float: right;
+  width: 50%;
+  margin: 0px;
+  padding: 0.1em 0em 1em 0em;
+}
+
+h3 {
+  clear: both;
+}
+
 dt, dd {
   font-style: italic;
   font-size: 0.75rem;
