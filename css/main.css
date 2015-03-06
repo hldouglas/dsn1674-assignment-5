@@ -60,6 +60,28 @@ h2 {
   background-color: #dc8252;
   text-align: center;
   color: #fff;
-  padding: 0.5em;
+  padding: 1em;
+  margin: 0em;
+}
+
+p {
   margin: 0.5em;
+  font-size: 0.98rem;
+}
+
+dt, dd {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+dt {
+  font-weight: bold;
+  float: left;
+  clear: left;
+  margin-right: 0.3em;
+}
+
+dd {
+  margin: 0;
+  float: left;
 }
