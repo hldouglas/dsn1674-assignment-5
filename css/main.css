@@ -11,6 +11,23 @@ header {
   overflow: hidden;
 }
 
+.grain-left {
+  float: left;
+  width: 8%;
+  margin: 15px;
+  border: 0px;
+  margin-left: 0px;
+
+}
+
+.grain-right {
+  float: right;
+  width: 8%;
+  margin: 15px;
+  border: 0px;
+  margin-right: 0px;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -33,7 +50,7 @@ nav ol {
 
 nav li {
   text-align: center;
-  float: left;
+  display: inline-block;
   width: 33.33%;
   border: 1px solid #a93f35;
   padding: 0.5em;
